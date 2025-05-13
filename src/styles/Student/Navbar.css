@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001; /* higher than sidebar */
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.profile {
+  cursor: pointer;
+}
+
+
+.navbar-logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.bell-icon {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+
+.profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  width: 200px;
+  z-index: 1000;
+}
+
+.submenu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.submenu li {
+  padding: 4px 0;
+}
+
+.submenu button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 4px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.submenu button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 4px 0;
+  text-align: left;
+  width: 100%;
+  font: inherit;
+  outline: none;
+}
+
+.submenu button:hover,
+.submenu button:focus {
+  background: none;
+  color: #0056b3; /* Optional: slightly darker blue on hover for feedback */
+}
+
+

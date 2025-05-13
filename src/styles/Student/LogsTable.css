@@ -1,0 +1,50 @@
+.logs-table-panel {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.logs-table-panel h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #2d2d2d;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filters select,
+.filters input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.logs-table th,
+.logs-table td {
+  text-align: left;
+  padding: 14px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.logs-table th {
+  background-color: #f4f7fb;
+  font-weight: 600;
+  color: #333;
+}
+
+.logs-table tr:hover {
+  background-color: #fafafa;
+}

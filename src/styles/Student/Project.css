@@ -1,0 +1,106 @@
+.projects-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-container {
+  padding: 30px;
+  padding-top: 0px;
+  background-color: #f0f2f5;
+  flex: 1;
+}
+
+.projects-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Panel Styling */
+.panel {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.panel:hover {
+  transform: translateY(-3px);
+}
+
+/* Shared panel heading */
+.panel h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #2d2d2d;
+}
+
+/* Utility styles */
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 20px;
+  margin: 3px ;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3b7dc4;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.project-table th, .project-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.project-table th {
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+.project-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}

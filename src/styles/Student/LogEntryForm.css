@@ -1,0 +1,52 @@
+.log-form-panel {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.log-form-panel:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.log-form-panel h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #2d2d2d;
+}
+
+.log-form-panel input,
+.log-form-panel textarea,
+.log-form-panel select {
+  padding: 12px 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  transition: border 0.2s ease;
+}
+
+.log-form-panel input:focus,
+.log-form-panel textarea:focus,
+.log-form-panel select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  background-color: #fff;
+}
+
+.log-form-panel button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.log-form-panel button:hover {
+  background-color: #3b7dc4;
+}

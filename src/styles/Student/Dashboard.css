@@ -1,0 +1,271 @@
+.dashboard {
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+
+/* Team Members Panel */
+.team-members-panel {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-members-panel h3 {
+  margin-bottom: 20px;
+}
+
+.team-members-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+/* Card styles */
+.member-card,
+.add-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  transition: transform 0.2s;
+}
+
+.member-card:hover,
+.add-card:hover {
+  transform: scale(1.05);
+}
+
+.image-frame img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Add Member Card */
+.add-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #007bff;
+  border: 2px dashed #007bff;
+  background-color: #e9f5ff;
+  cursor: pointer;
+}
+
+/* Bottom Section */
+.bottom-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Work Log and Mentor */
+.work-log,
+.mentor-profile {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.work-log {
+  background-color: #e3f2fd;
+}
+
+.work-time {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mentor-card .image-frame img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.mentor-card p {
+  margin: 4px 0;
+}
+
+
+
+
+
+
+/* Project Stats Overview */
+.project-stats-panel {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.project-stats-panel h3 {
+  margin-bottom: 20px;
+}
+
+.project-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Restrict pie chart image size inside stat cards */
+.stat-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+
+/* Stats and Activity Row */
+.stats-activity-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Project Stats Panel */
+.project-stats-panel {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-stats-panel h3 {
+  margin-bottom: 20px;
+}
+
+.project-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-stats canvas {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* Recent Activity Panel */
+.recent-activity-panel {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recent-activity-panel h3 {
+  margin-bottom: 15px;
+}
+
+.activity-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.activity-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.activity-input button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.activity-feed {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-feed li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+.deadlines-panel {
+  margin-top: 20px;
+}
+
+.deadlines-panel h4 {
+  margin-bottom: 10px;
+}
+
+.deadlines-feed {
+  list-style: none;
+  padding-left: 0;
+}
+
+.deadlines-feed li {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-left: 5px solid #ffc107;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+
+
+/* Dashboard.css or main layout CSS file */
+.main-content {
+  margin-top: 60px;  /* same as navbar height */
+  margin-left: 200px; /* same as sidebar width */
+  padding: 1rem;
+}
+
+
+
+

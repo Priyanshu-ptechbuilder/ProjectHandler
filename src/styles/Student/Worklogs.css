@@ -1,0 +1,20 @@
+.worklogs-container {
+  padding: 30px;
+  padding-top: 0;
+  background-color: #f0f2f5;
+  flex: 1;
+}
+
+.worklogs-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.worklogs-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
